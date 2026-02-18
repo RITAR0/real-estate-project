@@ -1,0 +1,43 @@
+.properties-page {
+  padding: 80px 60px;
+}
+
+.properties-page h1 {
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #0f172a;
+}
+
+.properties-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.property-card-page {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.property-card-page:hover {
+  transform: translateY(-5px);
+}
+
+.property-card-page img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.property-info-page {
+  padding: 20px;
+}
+
+.property-info-page span {
+  color: #c6a75e;
+  font-weight: bold;
+}

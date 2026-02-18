@@ -1,0 +1,147 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  width: 800px;
+  max-width: 95%;
+  border-radius: 10px;
+  overflow: hidden;
+  animation: fadeIn 0.3s ease-in-out;
+  position: relative;
+}
+
+.modal-content img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.modal-info {
+  padding: 30px;
+}
+
+.modal-info h2 {
+  margin-bottom: 10px;
+}
+
+.modal-info .location {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.modal-info .price {
+  color: #c6a75e;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.modal-info .description {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.contact-btn {
+  padding: 10px 25px;
+  background: #c6a75e;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.slide {
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.main-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.thumbnail-row {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.thumbnail-row img {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.thumbnail-row img.active-thumb {
+  border: 2px solid #c6a75e;
+  opacity: 1;
+}
+
+.specs {
+  display: flex;
+  gap: 20px;
+  margin: 15px 0;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.details-btn {
+  background: #0f172a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+
+.whatsapp-btn {
+  background: #25d366;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}

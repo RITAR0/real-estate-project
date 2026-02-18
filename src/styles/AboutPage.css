@@ -1,0 +1,32 @@
+.about-page {
+  padding: 80px 60px;
+  background: #f8f9fa;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-container h1 {
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #0f172a;
+}
+
+.about-stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 50px 0;
+}
+
+.about-stats h2 {
+  font-size: 32px;
+  color: #c6a75e;
+}
+
+.about-mission {
+  margin-top: 50px;
+}
