@@ -77,3 +77,9 @@
   font-size: 16px;
   border-radius: 6px;
 }
+
+@media (max-width: 768px) {
+  .property-details {
+    padding: 20px 20px;
+  }
+}

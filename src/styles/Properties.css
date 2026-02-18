@@ -41,3 +41,9 @@
   color: #c6a75e;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .properties-page {
+    padding: 20px 20px;
+  }
+}
